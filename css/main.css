@@ -540,12 +540,13 @@ a{
     max-height: 472px;
     border-radius: 40px;
     margin: 30px;
-    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    border: 10px;
 }
 .cart:hover {
-    max-width: 248px;
+    max-width: 388px;
     border-radius: 40px;
     box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
+    /* transition: box-shadow 0.2s ease-in-out,transform 0.2s ease-in-out; */
     transform: translateY(-5px);
 }
 .price {
