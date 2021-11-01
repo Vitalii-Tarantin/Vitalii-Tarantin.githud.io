@@ -532,7 +532,6 @@ a{
 .cart_module {
     display: flex;
     flex-wrap: wrap;
-    justify-content: s;
 }
 .cart {
     display: inline-block;
@@ -577,20 +576,6 @@ a{
     cursor: pointer;
     margin-right: 8px;
 }
-.close {
-    position: absolute;
-    color: white;
-    width: 15px;
-    height: 15px;
-    background: #4A4B57;
-    border-radius: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    right: 0;
-    top: -5px;
-    cursor: pointer;
-}
 .setings_title {
     position: relative;
 }
@@ -604,6 +589,17 @@ a{
 }
 .close_p {
     position: absolute;
+    color: white;
+    width: 15px;
+    height: 15px;
+    background: #4A4B57;
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    right: 0;
+    top: -5px;
+    cursor: pointer;
 }
 .lots_settings {
     display: flex;
@@ -725,6 +721,11 @@ a{
     cursor: pointer;
     font-weight: 700;
     margin-right: 14px;
+}
+.social_net {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
 }
 .social_icon {
     text-align: center;
