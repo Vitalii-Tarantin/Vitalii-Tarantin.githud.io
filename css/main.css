@@ -254,6 +254,14 @@ a{
 .drop {
     position: relative;
 }
+.view {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+.view button:nth-child(3) {
+    margin-right: 20px;
+}
 .act_btn {
     width: 85px;
     height: 36px;
@@ -267,6 +275,7 @@ a{
     border: 0;
     border-radius: 8px;
     cursor: pointer;
+    padding: 0;
 }
 .act_btn:hover,
 .act_btn:focus,
@@ -498,8 +507,12 @@ a{
     font-weight: 400;
     color: #787885;
 }
+.line_stars {
+    display: flex;
+    max-width: 111px;
+}
 .active {
-    width: 259px;
+    width: 258px;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -522,16 +535,15 @@ a{
 }
 .cart {
     display: inline-block;
-    padding: 30px;
-    max-width: 259px;
+    padding: 10px;
+    max-width: 248px;
     max-height: 472px;
     border-radius: 40px;
     margin: 30px;
-    padding: 10px;
     transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 .cart:hover {
-    max-width: 298px;
+    max-width: 248px;
     border-radius: 40px;
     box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
     transform: translateY(-5px);
@@ -609,14 +621,14 @@ a{
 .tools {
     display: flex;
     justify-content: center;
-    margin: 40px 0 60px 0;
+    margin: 40px 0 60px 350px;
 }
 .actv_tools {
     display: flex;
     position: relative;
     justify-content: center;
     flex-direction: column;
-    width: 371px;
+    width: 431px;
     height: 186px;
     background: #EDEDF0;
     border-radius: 8px;
