@@ -154,10 +154,15 @@ a{
     margin-top: 0;
 }
 .goods_item {
-    width: 154px;
+    width: auto;
     height: 56px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    cursor: pointer;
+    padding: 10px 4px 4px 4px;
+    margin-right: 4px;
 }
 .column {
     display: flex;
@@ -170,11 +175,9 @@ a{
     color: #787885;
     text-decoration: none;
 }
-.goods_link:active, 
-.goods_link:hover,
-.goods_link:focus {
-    width: 154px;
-    height: 56px;
+.goods_item:active, 
+.goods_item:hover,
+.goods_item:focus {
     align-items: center;
     background-color: #EBF2FF;
     border-radius: 10px;
