@@ -12,54 +12,578 @@
         <div class="header">
             <div class="wrapper">
               <div class="menu">
-                <img src="images/Logo.jpg" alt="Logo">
+                <div class="logo">
+                <img class="logo_img" src="images/Logo.jpg" alt="Logo">
                 <ul class="nav">
-                  <li><a class="up" href="#">Sell on Shopka</a></li>
-                  <li><a class="up" href="#">Register</a></li>
-                  <input class="search" type="text">
-                  <li><a class="up" href="#">Consumer Electronics</a></li>
-                  <button class="header_btn">Sign in</button>
-                  <button class="header_btn">My cart</button>
-                  <img src="images/avatar.jpg" alt="Avatar">
-                 </ul>
+                  <li><a class="up" href="#" target="_blank">Sell on Shopka</a></li>
+                  <li><a class="up" href="#" target="_blank">Register</a></li>
+                </ul>
+                </div>
+                  <form class="form_inpt">
+                    <div class="search_input">
+                        <img class="search_img" src="images/search.svg" alt="search">
+                         <input class="search" type="text" required="required" placeholder="Start typing">
+                         <button class="button_cnsl" type="reset" title="Click me to clear the input field"><img src="images/censel_inpt.svg" alt="cansel"></button>
+                     </div>
+                     <ul class="nav">
+                        <li><a class="up" href="#" target="_blank">Consumer Electronics</a></li>
+                      </ul>
+                  </form>
+                  
+                  <div class="header_button">
+                    <button class="header_btn">Sign in</button>
+                    <button class="header_btn">My cart <span class="order"><p class="number">5</p></span></button>
+                    <img class="avatar" src="images/avatar.png" alt="Avatar">
+                  </div>
               </div>
             </div>
             <div class="goods">
                 <div class="nav_goods">
                     <ul class="goods_list">
                         <div class="column">
-                            <li class="goods_item"><a class="goods_link" href="#"><img src="images/hanger.svg" alt="closing & shoes">closing & shoes</a></li>
+                            <li class="goods_item">
+                                <a class="goods_link" href="#">
+                                    <img src="images/hanger.svg" alt="closing & shoes"></br>
+                                closing & shoes</a>
+                            </li>
                         </div>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/cinema.svg" alt="Entertainment">Entertainment</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/concert.svg" alt="music">music</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/fitness.svg" alt="sport & lifestyle">sport & lifestyle</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/pets.svg" alt="pets">pets</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/restaraunt.svg" alt="kitchen accessories">kitchen accessories</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/travel.svg" alt="travel equipment">travel equipment</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/barley.svg" alt="growing & garden">growing & garden</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/powerstation.svg" alt="electrical tools">electrical tools</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/babysitter.svg" alt="mother care">mother care</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/toys.svg" alt="toys & entertainment">toys & entertainment</a></li>
-                        <li class="goods_item"><a class="goods_link" href="#"><img src="images/vintage.svg" alt="vintage">vintage</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/cinema.svg" alt="Entertainment"></br>Entertainment</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/concert.svg" alt="music"></br>music</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/fitness.svg" alt="sport & lifestyle"></br>sport & lifestyle</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/pets.svg" alt="pets"></br>pets</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/restaraunt.svg" alt="kitchen accessories"></br>kitchen accessories</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/travel.svg" alt="travel equipment"></br>travel equipment</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/barley.svg" alt="growing & garden"></br>growing & garden</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/powerstation.svg" alt="electrical tools"></br>electrical tools</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/babysitter.svg" alt="mother care"></br>brmother care</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/toys.svg" alt="toys & entertainment"></br>brtoys & entertainment</a></li>
+                        <li class="goods_item"><a class="goods_link" href="#" target="_blank"><img src="images/vintage.svg" alt="vintage"></br>brvintage</a></li>
                     </ul>
                 </div>
             </div>
     </header>
-    <main>
-        
-        <div class="content">
-            <div class="cart">
-                <img src="images/1.jpg" alt="img">
-                <h4 class="text">Vintage Typewriter to post awesome stories about UI design and webdev.</h5>
-                <p class="price">$49.50</p>
-                <p class="tagline">Eligible for Shipping To Mars or somewhere else</p>
-                <div class="active">
-                    <img src="images/stars 4.5.svg" alt="stars">
-                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+    <main class="content">
+        <div class="setings">
+            <div class="setings_list">
+                <button class="departmens"><span class="dep_img"><img src="images/departmens.svg" alt=""></span> Departmens</button>
+            </div>
+            <div class="setings_year">
+                <div class="title_filtr2">
+                    <input type="checkbox" id="chec_filter2" />
+                <p><label for="chec_filter2" id="filter_btn2">Collapsed filters</label></p>
+                <p>
+                    <div class="characteristic_list">
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Recommended</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Recently Added</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Expiring Soon</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Most Rated</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Price: Low → High</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Price: High → Low</a>
+                            </label>
+                        </div>  
+                    </div>
+                </p>
+                </div>
+            </div>
+            <div class="setings_year">
+                <div class="title_filtr">
+                    <input type="checkbox" id="chec_filter" />
+                <p><label for="chec_filter" id="filter_btn">Expanded Filters</label></p>
+                <p>
+                    <div class="characteristic_list">
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Recommended</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Recently Added</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Expiring Soon</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Most Rated</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Price: Low → High</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">Price: High → Low</a>
+                            </label>
+                        </div>  
+                    </div>
+                </p>
+                </div>
+            </div>
+            <div class="setings_year">
+                <div class="title_filtr1">
+                    <input type="checkbox" id="chec_filter1" />
+                <p><label for="chec_filter1" id="filter_btn1">Year of manufacturing</label></p>
+                <p>
+                    <div class="characteristic_list">
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">1954</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">1955</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">1956</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">1957</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">1958</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                         <label for="">
+                             <input class="check_inpt" type="checkbox">
+                             <span></span>
+                             <a href="#" class="settings_link">1959</a>
+                            </label>
+                        </div>
+                        <div class="parametrs">
+                            <label for="">
+                                <input class="check_inpt" type="checkbox">
+                                <span></span>
+                                <a href="#" class="settings_link">1960</a>
+                               </label>
+                           </div>
+                           <div class="parametrs">
+                            <label for="">
+                                <input class="check_inpt" type="checkbox">
+                                <span></span>
+                                <a href="#" class="settings_link">1961</a>
+                               </label>
+                           </div><div class="parametrs">
+                            <label for="">
+                                <input class="check_inpt" type="checkbox">
+                                <span></span>
+                                <a href="#" class="settings_link">1962-2020</a>
+                               </label>
+                           </div>
+                         
+                    </div>
+                </p>
                 </div>
             </div>
         </div>
+
+        <div class="lots">
+            <div class="filter">
+                <div class="drop_item">
+                    <div class="drop">
+                        <select id="1" class="drop_down">
+                            <option class="drop_text">Uselless first</option>
+                            <option class="drop_text">Пункт 2</option>
+                            <option class="drop_text">Пункт 3</option>
+                            <option class="drop_text">Пункт 4</option>
+                            <option class="drop_text">Пункт 5</option>
+                          </select>
+                          <label for="1" class="label1">
+                            SORT BY</label>
+                    </div>
+                      <div class="drop">
+                        <select id="2" class="drop_down">
+                            <option class="drop_text">Condition</option>
+                            <option class="drop_text">Пункт 2</option>
+                            <option class="drop_text">Пункт 3</option>
+                            <option class="drop_text">Пункт 4</option>
+                            <option class="drop_text">Пункт 5</option>
+                          </select>
+                          <label for="2" class="label1">
+                            SORT BY</label>
+                      </div>
+                      
+                      <div class="drop">
+                        <select id="3" class="drop_down">
+                            <option class="drop_text">Dilivery options</option>
+                            <option class="drop_text">Пункт 2</option>
+                            <option class="drop_text">Пункт 3</option>
+                            <option class="drop_text">Пункт 4</option>
+                            <option class="drop_text">Пункт 5</option>
+                          </select>
+                          <label for="3" class="label1">
+                            SORT BY</label>
+                      </div>
+                    </div>
+                      <div class="view">
+                        <button class="act_btn">Show all</button>
+                        <button class="act_btn">Auction</button>
+                        <button class="act_btn">Buy now</button>
+                        <button class="view_btn"><img src="images/view-list.svg" alt=""></button>
+                        <button class="view_btn"><img src="images/view-grid.svg" alt=""></button>
+                    </div>
+                
+                
+            </div>
+            <div class="lots_settings">
+                <h4 class="related_title">Related</h4>
+                <button class="related">worldwide shipping <span class="close"><p class="close_p">x</p></span></button>
+                <button class="related">under 50$ <span class="close"><p class="close_p">x</p></span></button>
+                <button class="related">kitten <span class="close"><p class="close_p">x</p></span></button>
+                <button class="related">plastic plugs <span class="close"><p class="close_p">x</p></span></button>
+                <button class="related">pucker shoes <span class="close"><p class="close_p">x</p></span></button>
+                <button class="related">vintage typewriter <span class="close">x</span></button>   
+            </div>
+           <div class="cart_module">
+            <div class="cart">
+                <img src="images/1.jpg" alt="img" title="Vintage Typewriter">
+                <h4 class="text">Vintage Typewriter to post awesome stories about UI design and webdev.</h4>
+                <p class="price">$49.50</p>
+                <p class="tagline">Eligible for Shipping To Mars or somewhere else</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.05</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/2.jpg" alt="img" title="Lee Pucker">
+                <h4 class="text">Lee Pucker design. Leather botinki for handsome designers. Free shipping..</h4>
+                <p class="price">$13.95</p>
+                <p class="tagline">1258 bids, 359 watchers
+                    $5.95 for shipping</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.56</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/3.jpg" alt="img" title="Timesaving kittenr">
+                <h4 class="text">Timesaving kitten to save months on development. Playful, cute, cheap!</h4>
+                <p class="price">$128.99</p>
+                <p class="tagline">Eligible for nothing :(</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.87</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/4.jpg" alt="img" title="Plastic useless plugs">
+                <h4 class="text">Plastic useless plugs and tubes for high-fidelity prototyping. Fit & Eat!</h4>
+                <p class="price">$12.48</p>
+                <p class="tagline">Eligible for nothing :(</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.99</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/5.jpg" alt="img" title="reativity stimulating">
+                <h4 class="text">Creativity stimulating lotion. Drink every morning to generate better ideas!</h4>
+                <p class="price">$12.48</p>
+                <p class="tagline">EWordwide shifting available
+                    Buyers protection possible!</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.99</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/6.jpg" alt="img" title="Prototyping items">
+                <h4 class="text">Prototyping items to create a lot if useless things...</h4>
+                <p class="price">$128.48</p>
+                <p class="tagline">Showcasing onHovered state</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.87</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/7.jpg" alt="img" title="John Von Ebalkin SPRING">
+                <h4 class="text">John Von Ebalkin SPRING </h4>
+                <p class="price">$13.95</p>
+                <p class="tagline">S1258 bids, 359 watchers
+                    $5.95 for shipping</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.56</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/8.jpg" alt="img" title="Envelope, Stripes">
+                <h4 class="text">Envelope, Stripes, Pencil and etc. Purchase this kit today and feel OKAY</h4>
+                <p class="price">$9.90</p>
+                <p class="tagline">Eligible for Shipping To Mars or somewhere else</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.77</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/9.jpg" alt="img" title="Professional teadrinking">
+                <h4 class="text">Professional teadrinking set for every designer and developer</h4>
+                <p class="price">$128.99</p>
+                <p class="tagline">Eligible for nothing :(</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.87</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/10.jpg" alt="img" title="One string Bonsai description">
+                <h4 class="text">One string Bonsai description</h4>
+                <p class="price">$11.68</p>
+                <p class="tagline">Wordwide shifting available
+                    Buyers protection possible!</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.99</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/11.jpg" alt="img" title="Simply best item">
+                <h4 class="text">Simply best item in town to shine bright with your Nine Inch Nails</h4>
+                <p class="price">$1.25</p>
+                <p class="tagline">Eligible for Shipping To Mars or somewhere else</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.77</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            <div class="cart">
+                <img src="images/12.jpg" alt="img" title="Simply best item">
+                <h4 class="text">KISTOCHKI & KRASIBO. Top cosmetics brand from Chelyabinsk is here!</h4>
+                <p class="price">$23.25</p>
+                <p class="tagline">1258 bids, 359 watchers
+                    $5.95 for shipping</p>
+                <div class="active">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <img class="star" src="images/star.svg" alt="stars">
+                    <p class="total_star">4.78</p>
+                   <a href="#"><img src="images/Watch.svg" alt="watch"></a>
+                </div>
+            </div>
+            </div>
+           </div> 
     </main>
-    
+    <div class="tools">
+        <div class="actv_tools">
+            <img src="images/lightbulb-on-outline.svg" alt="Clear & Usable" title="Clear & Usable user flows">
+            <h3 class="title_opt">Clear & Usable user flows</h3>
+            <p class="title_txt">Let’s boost yout marketplace</p>
+        </div>
+        <div class="actv_tools">
+            <img src="images/auto-fix.svg" alt="Fine & Styled components" title="Fine & Styled components">
+            <h3 class="title_opt">Fine & Styled components</h3>
+            <p class="title_txt">Speed up with Setproduct templates</p>
+        </div>
+        <div class="actv_tools">
+            <img src="images/palette.svg" alt="Customizable & Reusable" title="Customizable & Reusable">
+            <h3 class="title_opt">FCustomizable & Reusable</h3>
+            <p class="title_txt">Take our UX patterns and rebuild</p>
+        </div>
+    </div> 
+    <footer class="footer">
+       <div class="cont_us">
+        <div class="contacts">
+            <div class="customer">
+                <h2 class="title_contacts">Customer</h2>
+                <ul class="cont">
+                    <li class="down"><a class="down_nav" href="#" target="_blank">about</a></li>
+                    <li class="down"><a class="down_nav" href="#" target="_blank">delivery</a></li>
+                    <li class="down"><a class="down_nav" href="#" target="_blank">guarantee</a></li>
+                    <li class="down"><a class="down_nav" href="#" target="_blank">FAQ</a></li>
+                    <li class="down"><a class="down_nav" href="#" target="_blank">contacts</a></li>
+                </ul>
+                <div class="call">
+                    <div class="phone">
+                        <a class="bold_txt" href="tel:+0 800 500 19 10">+0 800 500 19 10</a>
+                        <p class="cont_txt">Free call. 9 AM - 9 PM</p>
+                    </div>
+                    <div class="mail">
+                        <a class="bold_txt" href="mailto:support@shopka.com" target="_blank" rel="noopener noreferrer">support@shopka.com</a>
+                        <p class="cont_txt">Any questions 24/7</p>
+                    </div>
+                    <div class="network">
+                        <button class="you_order">Track your order</button>
+                        <li><a class="social_icon" href="#" title="facebook" target="_blank" rel="noopener"><img src="images/Facebook.svg" alt="facebook"></a></li>
+                        <li><a class="social_icon" href="#" title="telegram" target="_blank" rel="noopener"><img src="images/Twitter.svg" alt="facebook"></a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="business">
+                <h2 class="title_contacts">Business</h2>
+                <ul class="cont">
+                    <li class="down"><a class="down_nav" href="#" target="_blank">Cooperation</a></li>
+                </ul>
+                <div class="call">
+                    <div class="phone">
+                        <a class="bold_txt" href="tel:+0 800 777 70 07">0 800 777 70 070</a>
+                        <p class="cont_txt">Free call. 9 AM - 9 PM</p>
+                    </div>
+                    <div class="mail">
+                        <a class="bold_txt" href="mailto:for-biz@shopka.com" target="_blank" rel="noopener noreferrer">for-biz@shopka.com</a>
+                        <p class="cont_txt">business discussion</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <div class="subscribe">
+           <div class="sub_box">
+            <div class="mail_sub">
+                <img src="images/email.svg" alt="email.svg" title="Email">
+                <input class="inp_sub" type="text" placeholder="example@mail.com">
+                <button class="btn_sub">Subscribe</button>
+            </div>
+            <ul class="program">
+                <li><a href="#" class="inform" target="_blank" title="Affiliate program">Affiliate program</a></li>
+                <li><a href="#" class="inform" target="_blank" title="Add your store">Add your store</a></li>
+            </ul>
+           </div>
+       </div>
+       <div class="copy">
+           <div class="copy_write">
+            <div class="copy_txt">
+                <h6 class="copy_shopka">Shopka © 2011 All rights reserved</h6>
+            </div>
+            <div class="visa">
+                <img src="images/visa.svg" alt="visa" title="visa">
+                <img src="images/mastercard.svg" alt="mastercard" title="mastercard">
+            </div>
+            <ul class="privat">
+                <li class="polisy"><a class="polisy" href="#" title="Sitemap">Sitemap</a></li>
+                <li><a class="polisy" href="#" title="Privacy policy">Privacy policy</a></li>
+            </ul>
+           </div>
+       </div>
+    </footer>
+   
 </body>
 </html>
