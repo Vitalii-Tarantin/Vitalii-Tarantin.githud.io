@@ -305,7 +305,85 @@ a{
     align-items: center;
     box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24), 0px 2px 4px rgba(90, 91, 106, 0.24);
     border-radius: 8px;
+}.tab input, .tab-content { display: none; }
+.tab {
+    width: 272px;
+    font: 0.8rem/1.2 Arial, sans-serif;
+    background: #FFFFFF;
+    border-radius: 4px; 
+    color: #848994; 
+    margin-bottom: 10px; 
 }
+.share_filter{
+    padding-left: 0;
+}
+.shr_fil {
+    list-style-type: none;
+    font-size: 16px;
+    color: #19191D;
+    text-decoration: none;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.shr_filter {
+    color: #19191D;
+}
+.tab-title_more {
+    width: 138px;
+    height: 40px;
+    padding: 10px; 
+    display: block; 
+    text-transform: capitalize; 
+    font-weight: bold; 
+    cursor: pointer; 
+    background: #EBF2FF;
+    border-radius: 4px;
+    color: #2264D1;
+}
+.tab-title {
+    padding: 10px; 
+    display: block; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    cursor: pointer;
+}
+.tab-title_more::before {
+    content: "\276f";
+    position: absolute;
+    left: 0;
+    color: #787885;;
+    transition: all .6s ease;
+    transform: rotate(90deg);
+}
+
+.tab-title::before {
+    content: "\276f";
+    position: absolute;
+    left: 118px;
+    color: #76A9FF;
+    transition: all .6s ease;
+    transform: rotate(0deg);
+}
+.tab-content {
+ padding: 10px 20px; 
+}
+.tab :checked + .tab-title {
+ background-color: white; 
+ border-radius: 3px 3px 0 0; 
+ color: black; 
+}
+.tab:checked + .tab-title::after {
+    content: "\276f";
+    position: absolute;
+    right: 156px;
+    color: #2264D1;
+    transition: all .6s ease;
+    transform: rotate(40deg);
+}
+.tab :checked ~ .tab-content {
+ display: block; 
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -544,9 +622,10 @@ a{
 }
 .cart:hover {
     max-width: 388px;
+    border: 10px;
     border-radius: 40px;
     box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
-    /* transition: box-shadow 0.2s ease-in-out,transform 0.2s ease-in-out; */
+    transition: box-shadow 0.2s ease-in-out,transform 0.2s ease-in-out;
     transform: translateY(-5px);
 }
 .price {
@@ -560,6 +639,32 @@ a{
     font-weight: 500;
     font-size: 14px;
     line-height: 22px;
+}
+.share {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.share_discount {
+    margin: 24px 0;
+    padding: 4px 6px;
+    width: 60px;
+    height: 24px;
+    color: #37833B;
+    font-size: 12px;
+    background: #ECF7ED;
+    border-radius: 4px;
+}
+.share_prop {
+    margin: 24px 0;
+    padding: 4px 6px;
+    width: 70px;
+    height: 24px;
+    color:#C23564;
+    font-size: 12px;
+    background: #FDEDF2;
+    border-radius: 4px;
+    
 }
 .related {
     position: relative;
@@ -778,17 +883,27 @@ a{
 }
 .program {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     text-decoration: none;
+    margin: 0;
+}
+.bla {
+    display: flex;
+    justify-content: center;
+    width: 376px;
+    height: 50px;
+    margin: 0;
 }
 .inform {
-    height: 100px;
+    width: 376px;
+    height: 50px;
     font-size: 16px;
     color: #1F1F1F;
     text-align: center;
-    margin-right: 15px;
     border-left: 1px solid #D1D1E1;
+    border-right: 1px solid #D1D1E1;
 }
 .copy {
     display: flex;
@@ -821,4 +936,82 @@ a{
 }
 .settings_name:checked {
     display: none;
+}
+.tab input, .tab-content { display: none; }
+.tab {
+    width: 272px;
+    font: 0.8rem/1.2 Arial, sans-serif;
+    background: #FFFFFF;
+    border-radius: 4px; 
+    color: #848994; 
+    margin-bottom: 10px; 
+}
+.share_filter{
+    padding-left: 0;
+}
+.shr_fil {
+    list-style-type: none;
+    font-size: 16px;
+    color: #19191D;
+    text-decoration: none;
+    line-height: 24px;
+    margin-top: 16px;
+}
+.shr_filter {
+    color: #19191D;
+}
+.tab-title_more {
+    width: 138px;
+    height: 40px;
+    padding: 10px; 
+    display: block; 
+    text-transform: capitalize; 
+    font-weight: bold; 
+    cursor: pointer; 
+    background: #EBF2FF;
+    border-radius: 4px;
+    color: #2264D1;
+}
+.tab-title {
+    padding: 10px; 
+    display: block; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    cursor: pointer;
+}
+.tab-title_more::before {
+    content: "\276f";
+    position: absolute;
+    left: 150px;
+    color: #787885;;
+    transition: all .6s ease;
+    transform: rotate(90deg);
+}
+
+.tab-title::before {
+    content: "\276f";
+    position: absolute;
+    left: 8px;
+    color: #76A9FF;
+    transition: all .6s ease;
+    transform: rotate(0deg);
+}
+.tab-content {
+ padding: 10px 20px; 
+}
+.tab :checked + .tab-title {
+ background-color: white; 
+ border-radius: 3px 3px 0 0; 
+ color: black; 
+}
+.tab:checked + .tab-title::after {
+    content: "\276f";
+    position: absolute;
+    left: 340px;
+    color: #2264D1;
+    transition: all .6s ease;
+    transform: rotate(40deg);
+}
+.tab :checked ~ .tab-content {
+ display: block; 
 }
